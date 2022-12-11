@@ -1,0 +1,145 @@
+/*Style of Header*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.title {
+  text-align: center;
+  padding: 40px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  place-content: center;
+}
+
+.header ul li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.header ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 5px;
+  color: black;
+}
+
+/* Style of Container One */
+
+.container-one {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+
+.text-content {
+  display: grid;
+  place-items: center end;
+  padding: 40px;
+  background: white;
+}
+
+.description {
+  text-align: right;
+  font-size: 20px;
+}
+
+.button {
+  background: #ee2211;
+  padding: 15px 30px;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.image-content img {
+  max-width: 100%;
+}
+
+.traco {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background: #ee2211;
+  top: 220px;
+  right: 790px;
+  z-index: 2;
+}
+
+/* Style of Container Two */
+
+.container-two {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+
+.benefits {
+  display: grid;
+  place-items: center end;
+  padding: 100px 20px;
+}
+
+.benefits h2 {
+  color: #c6c6c6;
+  text-align: right;
+  font-size: 80px;
+}
+
+.advantages-description {
+  display: grid;
+  gap: 40px;
+  background: white;
+  padding: 70px;
+}
+
+.advantage-one {
+  display: grid;
+  grid-template-columns: 40px 300px;
+}
+
+.advantage-one p {
+  grid-column: 2;
+}
+
+.advantage-two {
+  display: grid;
+  grid-template-columns: 40px 300px;
+}
+
+.advantage-two p {
+  grid-column: 2;
+}
+
+.advantage-three {
+  display: grid;
+  grid-template-columns: 40px 300px;
+}
+
+.advantage-three p {
+  grid-column: 2;
+}
+
+/* Style of Container Three */
+
+.container-three {
+  padding: 40px;
+  margin-top: 100px;
+  background: white;
+  display: grid;
+  place-items: center;
+}
