@@ -218,7 +218,7 @@ footer {
     display: none;
     width: 4rem;
     height: 0.25rem;
-    position: absolute;
+    position: relative;
     background-color: #ee2211;
     bottom: 5rem;
     left: 16.8rem;
