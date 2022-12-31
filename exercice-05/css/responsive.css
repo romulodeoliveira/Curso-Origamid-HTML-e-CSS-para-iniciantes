@@ -169,6 +169,33 @@
 }
 
 @media (max-width: 750px) {
+  .header {
+    display: grid;
+    place-content: center;
+  }
+
+  .header h1 {
+    display: grid;
+    text-align: center;
+  }
+
+  .header nav ul {
+    flex-wrap: wrap;
+  }
+
+  .apresentacao,
+  .experiencia_section,
+  .sectionthree,
+  .sectionfour {
+    padding: 1rem;
+  }
+
+  .experiencia_section,
+  .sectionthree,
+  .sectionfour {
+    padding-top: 3rem;
+  }
+
   .header,
   .div_apresentacao,
   .div_experiencia,
@@ -192,10 +219,6 @@
   .div_contato {
     gap: 2rem;
   }
-  .apresentacao,
-  .experiencia_section {
-    padding: 2rem 0;
-  }
 
   .grade_experiencias {
     display: grid;
@@ -204,6 +227,12 @@
 
   .info_experiencia {
     max-width: 400px;
+  }
+
+  .experiencia_h2,
+  .formacao {
+    font-size: 3.5rem;
+    text-align: center;
   }
 }
 
